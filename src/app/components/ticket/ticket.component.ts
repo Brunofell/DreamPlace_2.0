@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./ticket.component.css']
 })
 export class TicketComponent {
+  
+     
+
 
 }
