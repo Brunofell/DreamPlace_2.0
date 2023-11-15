@@ -18,6 +18,7 @@ import { TicketComponent } from './components/ticket/ticket.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { HttpClientModule } from '@angular/common/http';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
@@ -29,7 +30,6 @@ import {MatButtonModule} from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,13 +44,15 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     PerfilComponent,
     ReservaComponent,
     HomeUserComponent,
-    TicketComponent
+    TicketComponent,
+
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
+    NgbModule,
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,

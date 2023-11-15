@@ -4,18 +4,16 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    height: 100;
     width: 100%;
 
     
 }
 *{
-    background-color: antiquewhite;
+    background-color:antiquewhite;
 }
 
-footer h3{
-    margin-bottom: 1.2em;
-}
+ 
 
 footer span{
     font-weight: bold;
