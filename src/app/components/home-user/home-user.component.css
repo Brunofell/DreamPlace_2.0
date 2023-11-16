@@ -59,8 +59,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
+  z-index: -1; /* Put the background image behind the content */
+  background: url('https://s2.glbimg.com/RoHVrdIQ8gU7WT3AzNepGyJpxL8=/620x455/e.glbimg.com/og/ed/f/original/2017/06/22/hotel_palacio_tangara_exterior__8966.jpg') center center no-repeat;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }

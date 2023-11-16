@@ -30,7 +30,7 @@
 .home-btn {
     padding: 15px 45px;
     background: #FF731D;
-    color: #FFF7E9;
+    color: #ffe4e4;
     border-radius: 50px;
     font-weight: 500;
     transition: all 0.5s;
@@ -234,3 +234,4 @@
     font-weight: 600;
     cursor: pointer;
 }
+ 
