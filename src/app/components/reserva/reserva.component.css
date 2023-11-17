@@ -11,7 +11,7 @@
 }
 
 .container {
-  max-width: 600px;
+  max-width: 660px;
   margin: 0 auto;
   padding: 20px;
   background: #fff;
@@ -23,6 +23,7 @@
   font-size: 2rem;
   color: #1746A2;
   margin-bottom: 20px;
+  
 }
 
 .form__subtitulo {
@@ -47,6 +48,12 @@
 .input__titulo {
   font-size: 1rem;
   color: #1746A2;
+  
+}
+.input__titulodatanascimento{
+  font-size: 0.9rem;
+  color: #1746A2;
+
 }
 
 .form-control {
